@@ -1,9 +1,26 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
-}
+    "projects": [
+      {
+        "name": "The Oakberry",
+        "description": " A dynamic web application designed to offer a seamless browsing experience. Users can browse through various product categories and make purchases via an integrated shopping cart system.",
+        "technologies": [ "JavaScript", "React", "Tailwind CSS", "CSS"],
+        "link": "https://the-oakberry.vercel.app/",
+        "image": "/images/Oakberry.png"
+      },
+      {
+        "name": "Taste N Shop",
+        "description": " A comprehensive e-commerce platform with a functional cart, product search, and category filtering.",
+        "technologies": ["Python", "JavaScript", "React", "Tailwind CSS", "Python (Flask)", "SQL"],
+        "link": "https://e-commerce-frontend-dun-eta.vercel.app/",
+        "image": "/images/TasteNShop.png"
+      },
+      {
+        "name": "Project Three",
+        "description": "A responsive portfolio website showcasing my web development projects and skills, built with React and styled using Tailwind CSS.",
+        "technologies": ["React", "Tailwind CSS", "JavaScript"],
+        "link": "https://www.example.com/project-three",
+        "image": "/images/Oakberry.png"
+      }
+    ]
+  }
+  
